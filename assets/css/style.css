@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Monserrat Personal;
+    src: url(./assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+html, dody {
+    overflow-x: hidden;
+    width: 100%;
+    font-family: Monserrat Personal; 
+    font-style: normal;
+    font-size: 14px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 6px 4px -129px 40px;
+    padding: 1px 1px 1px 1px;
+}
+.logo{
+    width: 80;
+    height: 80;
+    margin: 1px 190px 180px 1px;
+}
+h1 {
+    margin: 1px 102px 0px 132px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 10px 0 0;
+}
+nav li{ 
+
+    padding: 50px 40px 0 0;
+}
+.main {
+    margin: 0 30px 0 30px;
+    background-color: aquamarine;
+}
+.sidebar{
+    float: right;
+    margin: 0 330px 0 30px;
+}
+footer{
+    margin: 0 30px 0 330px;
+}
+a{
+    color: blue;
+}
+.text_link{
+    color:brown;
+}
